@@ -53,6 +53,14 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="CateringAdmin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CateringReg.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="HR.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -65,6 +73,12 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="CateringAdmin.xaml.cs">
+      <DependentUpon>CateringAdmin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CateringReg.xaml.cs">
+      <DependentUpon>CateringReg.xaml</DependentUpon>
+    </Compile>
     <Compile Include="HR.xaml.cs">
       <DependentUpon>HR.xaml</DependentUpon>
     </Compile>
@@ -72,12 +86,26 @@
       <DependentUpon>Login.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="LogisticsAdmin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="LogisticsReg.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Management.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LogisticsAdmin.xaml.cs">
+      <DependentUpon>LogisticsAdmin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LogisticsReg.xaml.cs">
+      <DependentUpon>LogisticsReg.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Management.xaml.cs">
       <DependentUpon>Management.xaml</DependentUpon>
     </Compile>
