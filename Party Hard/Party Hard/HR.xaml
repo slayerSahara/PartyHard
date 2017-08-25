@@ -7,7 +7,11 @@
         mc:Ignorable="d"
         Title="HR" Height="700" Width="1050">
     <Grid Background="#4B2269" Height="670" VerticalAlignment="Top">
-        <TabControl  Height="550" Margin="0,97,207,0" VerticalAlignment="Top" TabStripPlacement="Left">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="303*"/>
+            <RowDefinition Height="367*"/>
+        </Grid.RowDefinitions>
+        <TabControl  Height="550" Margin="0,97,207,0" VerticalAlignment="Top" TabStripPlacement="Left" Grid.RowSpan="2">
             <TabItem x:Name="Rectangle1" Header="Venue Partnership">
                 <StackPanel>
 
@@ -22,20 +26,19 @@
             </TabItem>
             <TabItem Header="Employee Information">
                 <StackPanel>
-                    <Button Content="File report" Width="75" Margin="600,18,0,492" />
-                    <Border BorderThickness="1" BorderBrush="Black">
-                    <Label Content="Name: " Height="28" Width="120" Margin="-500,-450,0,492"/>
-                    </Border>
+                    <ListView Margin="0,100,225,60" HorizontalAlignment="Right" Width="224">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn Header="Name" Width="120" DisplayMemberBinding="{Binding Name}" />
+                                <GridViewColumn Header="DOB" Width="100" DisplayMemberBinding="{Binding Age}" />
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+
                 </StackPanel>
             </TabItem>
-
-
-
         </TabControl>
         <Calendar HorizontalAlignment="Left" Margin="850,97,0,0" VerticalAlignment="Top"/>
-
-
-
-
+        <Button Content="File Report" Margin="760,35,207,246" Width="75"/>
     </Grid>
 </Window>
