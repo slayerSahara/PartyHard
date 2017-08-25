@@ -6,7 +6,44 @@
         xmlns:local="clr-namespace:Party_Hard"
         mc:Ignorable="d"
         Title="Management"  Height="700" Width="1050">
-    <Grid>
-        
+    <Grid Background="#4B2269">
+        <Calendar HorizontalAlignment="Left" Margin="863,492,0,0" VerticalAlignment="Top"/>
+        <TabControl Margin="0,102,184,10" TabStripPlacement="Left" SelectionChanged="TabControl_SelectionChanged" Background="white">
+            <TabItem Header="Customers" Foreground= "#C0FFC7" Background="#03080E">
+                <StackPanel Name="customersStackPanel" Grid.Column="2" Grid.Row="2">
+                    <TextBlock Text="001" Margin="0,0,637,0"/>
+                    <Border BorderBrush="Black" BorderThickness="1" Height="1"/>
+                    <TextBlock Text="002" Margin="0,0,637,0"/>
+                    <Border BorderBrush="Black" BorderThickness="1" Height="1"/>
+                    <TextBlock Text="003" Margin="0,0,637,0"/>
+                    <Border BorderBrush="Black" BorderThickness="1" Height="1"/>
+                    <TextBlock Text="004" Margin="0,0,637,0"/>
+                    <Border BorderBrush="Black" BorderThickness="1" Height="1"/>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="HR" Foreground= "#C0FFC7" Background="#03080E">
+
+            </TabItem>
+            <TabItem Header="Catering" Foreground="#C0FFC7" Background="#03080E">
+
+            </TabItem>
+            <TabItem Header="Scheduling" Foreground= "#C0FFC7" Background="#03080E">
+
+            </TabItem>
+            <TabItem Header="Logistics" Foreground= "#C0FFC7" Background="#03080E">
+
+            </TabItem>
+            <TabItem Header="Financial" Foreground= "#C0FFC7" Background="#03080E">
+
+            </TabItem>
+            <TabItem Header="Office Support" Foreground= "#C0FFC7" Background="#03080E">
+
+            </TabItem>
+            <Rectangle Fill="#FFF4F4F5" Height="100" Stroke="Black" Width="100"/>
+        </TabControl>
+        <Button Content="Logout" HorizontalAlignment="Left" Margin="957,10,0,0" VerticalAlignment="Top" Width="75"/>
+        <TextBlock HorizontalAlignment="Left" Margin="105,72,0,0" TextWrapping="Wrap" Text="ID" VerticalAlignment="Top" Height="25" Width="23" Foreground="#C0FFC7"/>
+        <TextBlock HorizontalAlignment="Left" Margin="326,72,0,0" TextWrapping="Wrap" Text="Name" VerticalAlignment="Top" Height="25" Width="37" Foreground="#C0FFC7"/>
+
     </Grid>
 </Window>

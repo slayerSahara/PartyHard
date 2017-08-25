@@ -5,9 +5,18 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Party_Hard"
         mc:Ignorable="d"
-        Title="LogisticsReg" Height="700" Width="1050">
+        Title="Logistics - Regular" Height="700" Width="1050">
     <Grid Background="#4b2269">
+        <TextBlock Foreground="#c0ffc7" FontSize="28" Height="50" Margin="31,31,856,588">Party Hard</TextBlock>
+        <Button Height="50" Width="100" Margin="886,31,56,588" Foreground="#03080e" FontWeight="Bold" FontSize="18" 
+                BorderBrush="#03080e" BorderThickness="2" RenderTransformOrigin="0.185,0.57">Log Out</Button>
+        <Calendar Margin="840,148,5,351"></Calendar>
         <TabControl TabStripPlacement="Left" Margin="0,108,207,0">
+            <TabItem Header="Upcoming" Foreground="#03080e" FontWeight="Bold" Height="50">
+                <StackPanel>
+
+                </StackPanel>
+            </TabItem>
             <TabItem Header="Partners" Foreground="#03080e" FontWeight="Bold" Height="50">
 
             </TabItem>
