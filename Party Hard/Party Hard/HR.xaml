@@ -6,10 +6,13 @@
         xmlns:local="clr-namespace:Party_Hard"
         mc:Ignorable="d"
         Title="HR" Height="700" Width="1050">
-    <Grid Background="#4B2269">
+    <Grid Background="#4B2269" Height="670" VerticalAlignment="Top">
         <TabControl  Height="550" Margin="0,97,207,0" VerticalAlignment="Top" TabStripPlacement="Left">
-            <TabItem Header="Venue Partnership">
+            <TabItem x:Name="Rectangle1" Header="Venue Partnership">
+                <StackPanel>
 
+
+                </StackPanel>
             </TabItem>
             <TabItem Header="Catering Partnership">
 
@@ -18,10 +21,20 @@
 
             </TabItem>
             <TabItem Header="Employee Information">
-                
+                <StackPanel>
+                    <Button Content="File report" Width="75" Margin="600,18,0,492" />
+                    <Border BorderThickness="1" BorderBrush="Black">
+                    <Label Content="Name: " Height="28" Width="120" Margin="-500,-450,0,492"/>
+                    </Border>
+                </StackPanel>
             </TabItem>
+
+
+
         </TabControl>
-        
+        <Calendar HorizontalAlignment="Left" Margin="850,97,0,0" VerticalAlignment="Top"/>
+
+
 
 
     </Grid>
