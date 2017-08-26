@@ -5,8 +5,115 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Party_Hard"
         mc:Ignorable="d"
-        Title="HRAdmin" Height="300" Width="300">
-    <Grid>
-        
+        Title="HRAdmin" Height="700" Width="1050">
+    <Grid Background="#4B2269" Height="670" VerticalAlignment="Top">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="303*"/>
+            <RowDefinition Height="367*"/>
+        </Grid.RowDefinitions>
+        <TabControl  Height="550" Margin="0,97,207,0" VerticalAlignment="Top" TabStripPlacement="Left" Grid.RowSpan="2">
+            <TabItem x:Name="Venues" Header="Venue Partnership">
+                <StackPanel>
+                    <Rectangle Height="100" Fill="Green" Margin="30, 40, 30 ,0"/>
+                    <TextBlock TextWrapping="Wrap" Margin="40,-100,527,0" Height="20" Text="Name: Marriott Hotel"/>
+                    <TextBlock Text="ID: 2" Margin="425,-105,233,0" Height="16" RenderTransformOrigin="2.45,0.294"/>
+                    <TextBlock Margin="170,-100,257,0" Text="Address: 220 State St, Salt Lake City, UT 84111" Height="20"/>
+                    <TextBlock Margin="465,-100,57,0" Text="Phone number: 801-126-2351 " Height="20"/>
+                    <Rectangle Height="100" Fill="Green" Margin="30, 40, 30 ,0"/>
+                    <TextBlock Margin="40,-86,527,0" Text="Name: Elevate Event Center" Height="36" TextWrapping="Wrap"/>
+                    <TextBlock Margin="170,-100,257,0" Text="Address: 149 W 200 S, Salt lake city, UT 84101" Height="20"/>
+                    <TextBlock Text="ID: 3" Margin="425,-105,233,0" Height="16" RenderTransformOrigin="2.45,0.294"/>
+                    <TextBlock Margin="465,-100,57,0" Text="Phone number: 801-812-2323 " Height="20"/>
+                    <Rectangle Height="100" Fill="Green" Margin="30, 40, 30 ,0"/>
+                    <TextBlock TextWrapping="Wrap" Margin="40,-100,527,0" Height="20" Text="Name: Sky"/>
+                    <TextBlock Text="ID: 4" Margin="425,-105,233,0" Height="16" RenderTransformOrigin="2.45,0.294"/>
+                    <TextBlock Margin="122,-100,292,0" Text="Address: 149 W Pierpont, Salt Lake City, UT 84101" Height="20"/>
+                    <TextBlock Margin="465,-100,57,0" Text="Phone number: 801-683-5942" Height="20"/>
+                    <Button Content="Edit Venues" Margin="600,-800,10,0" Height="24"/>
+                    <Button Content="New Venue" HorizontalAlignment="Left" Margin="20,-410,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.419,0.436"/>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Catering Partnership">
+                <StackPanel>
+                    <Rectangle Height="100" Fill="Green" Margin="30, 40, 30 ,0"/>
+                    <TextBlock TextWrapping="Wrap" Margin="40,-100,527,0" Height="20" Text="Name: Jimmy John's"/>
+                    <TextBlock Text="ID: 1" Margin="425,-105,233,0" Height="16" RenderTransformOrigin="2.45,0.294"/>
+                    <TextBlock Margin="170,-100,257,0" Text="Address: 605 E 400 S, Salt Lake City, UT 84102" Height="20"/>
+                    <TextBlock Margin="465,-100,47,0" Text="Phone number: 801-652-56243 " Height="20"/>
+                    <Rectangle Height="100" Fill="Green" Margin="30, 40, 30 ,0"/>
+                    <TextBlock Margin="40,-86,522,0" Text="Name: Paradise Bakery" Height="36" TextWrapping="Wrap"/>
+                    <TextBlock Margin="170,-100,257,0" Text="Address: 618 E 400 S, Salt Lake City, UT 84102" Height="20"/>
+                    <TextBlock Text="ID: 2" Margin="425,-105,233,0" Height="16" RenderTransformOrigin="2.45,0.294"/>
+                    <TextBlock Margin="465,-100,57,0" Text="Phone number: 801-218-5317 " Height="20"/>
+                    <Rectangle Height="100" Fill="Green" Margin="30, 40, 30 ,0"/>
+                    <TextBlock TextWrapping="Wrap" Margin="40,-100,527,0" Height="20" Text="Name: Culinary Crafts"/>
+                    <TextBlock Text="ID: 3" Margin="440,-105,212,0" Height="16" RenderTransformOrigin="2.45,0.294"/>
+                    <TextBlock Margin="165,-100,257,0" Text="Address: 149 W Pierpont, Salt Lake City, UT 84101" Height="20"/>
+                    <TextBlock Margin="470,-100,57,0" Text="Phone number: 801-486-6923" Height="20"/>
+                    <Button Content="Edit Restaurants" Margin="578,-800,10,0" Height="24"/>
+                    <Button Content="New Restaurants" HorizontalAlignment="Left" Margin="20,-410,0,0" VerticalAlignment="Top" Width="104" RenderTransformOrigin="0.419,0.436"/>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Marketing Partnership">
+                <StackPanel>
+                    <Rectangle Height="100" Fill="Green" Margin="30, 40, 30 ,0"/>
+                    <TextBlock TextWrapping="Wrap" Margin="40,-100,527,0" Height="34" Text="Name: Freestyle Marketing Group"/>
+                    <TextBlock Text="ID: 1" Margin="430,-105,226,0" Height="16" RenderTransformOrigin="2.45,0.294"/>
+                    <TextBlock Margin="135,-100,257,0" Text="Address: 211 Broadway # 214, Salt Lake City, UT 84111" Height="20"/>
+                    <TextBlock Margin="465,-100,57,0" Text="Phone number: 801-621-6438" Height="20"/>
+                    <Rectangle Height="100" Fill="Green" Margin="30, 40, 30 ,0"/>
+                    <TextBlock Margin="40,-86,527,0" Text="Name: Struck" Height="36" TextWrapping="Wrap"/>
+                    <TextBlock Margin="125,-100,266,0" Text="Address: 159 Broadway #200, Salt Lake City, UT 84101" Height="20"/>
+                    <TextBlock Text="ID: 2" Margin="425,-105,233,0" Height="16" RenderTransformOrigin="2.45,0.294"/>
+                    <TextBlock Margin="465,-100,57,0" Text="Phone number: 801-218-5318 " Height="20"/>
+                    <Rectangle Height="100" Fill="Green" Margin="30, 40, 30 ,0"/>
+                    <TextBlock TextWrapping="Wrap" Margin="40,-100,527,0" Height="20" Text="Name: Axis41"/>
+                    <TextBlock Text="ID: 3" Margin="425,-105,233,0" Height="16" RenderTransformOrigin="2.45,0.294"/>
+                    <TextBlock Margin="122,-100,280,0" Text="Address: 175 W 200 S #4100, Salt Lake City, UT 84101" Height="20"/>
+                    <TextBlock Margin="465,-100,57,0" Text="Phone number: 801-386-3581" Height="20"/>
+                    <Button Content="Edit Advertisers" Margin="581,-800,10,0" Height="24"/>
+                    <Button Content="New Advertiser" HorizontalAlignment="Left" Margin="20,-410,0,0" VerticalAlignment="Top" Width="96" RenderTransformOrigin="0.419,0.436"/>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Employee Information">
+                <StackPanel>
+                    <Rectangle Height="100" Fill="Green" Margin="30, 40, 30 ,0"/>
+                    <TextBlock TextWrapping="Wrap" Margin="40,-100,527,0" Height="20" Text="Name: Mick E. Mouse"/>
+                    <TextBlock Text="ID: 1" Margin="430,-105,226,0" Height="16" RenderTransformOrigin="2.45,0.294"/>
+                    <TextBlock Margin="170,-100,429,0" Text="DOB: 11/18/28" Height="20"/>
+                    <TextBlock Margin="283,-100,290,0" Text="Hire Date: 8/20/17" Height="20"/>
+                    <TextBlock Margin="465,-100,57,0" Text="Position: Marketing Director" Height="20"/>
+                    <Rectangle Height="100" Fill="Green" Margin="30, 40, 30 ,0"/>
+                    <TextBlock TextWrapping="Wrap" Margin="40,-100,527,0" Height="20" Text="Name: Arya Stark"/>
+                    <TextBlock Text="ID: 2" Margin="430,-105,226,0" Height="16" RenderTransformOrigin="2.45,0.294"/>
+                    <TextBlock Margin="170,-100,429,0" Text="DOB: 04/11/73" Height="20"/>
+                    <TextBlock Margin="283,-100,290,0" Text="Hire Date: 8/24/17" Height="20"/>
+                    <TextBlock Margin="465,-100,57,0" Text="Position: Manager" Height="20"/>
+                    <Rectangle Height="100" Fill="Green" Margin="30, 40, 30 ,0"/>
+                    <TextBlock TextWrapping="Wrap" Margin="40,-100,527,0" Height="20" Text="Name: Tyrion Lannister"/>
+                    <TextBlock Text="ID: 3" Margin="430,-105,226,0" Height="16" RenderTransformOrigin="2.45,0.294"/>
+                    <TextBlock Margin="170,-100,429,0" Text="DOB: 10/18/75" Height="20"/>
+                    <TextBlock Margin="283,-100,290,0" Text="Hire Date: 8/25/17" Height="20"/>
+                    <TextBlock Margin="465,-100,57,0" Text="Position: Representative" Height="20"/>
+                    <Button Content="Edit Employees" Margin="582,-800,10,0" Height="24"/>
+                    <Button Content="New Employee" HorizontalAlignment="Left" Margin="20,-410,0,0" VerticalAlignment="Top" Width="96" RenderTransformOrigin="0.419,0.436"/>
+                </StackPanel>
+            </TabItem>
+
+        </TabControl>
+        <Calendar HorizontalAlignment="Left" Margin="850,97,0,0" VerticalAlignment="Top"/>
+        <Button Content="File Report" Margin="750,35,207,246"/>
+        <ListBox Margin="840,25,10,54" Grid.Row="1">
+            <TextBlock Text="Upcoming events" Margin="40,0,0,0" />
+            <Rectangle Fill="Coral" Height="100" Width="169" Margin="0,15,0,0"/>
+            <TextBlock Text="8/30/17 @ 3 PM" Margin="50,-90,0,80"/>
+            <TextBlock Text="Where: Elevate Event Center" Margin="10,-70,0,80"/>
+            <TextBlock Text="Cater: Jimmy John's" Margin="40,-70,0,80"/>
+            <Rectangle Fill="Aqua" Height="100" Width="169" Margin="0,15,0,0"/>
+            <TextBlock Text="9/2/17 @ 12 PM" Margin="50,-90,0,80"/>
+            <TextBlock Text="Where: Sky" Margin="65,-70,0,80"/>
+            <TextBlock Text="Cater: Culinary Crafts" Margin="35,-70,0,80"/>
+
+        </ListBox>
     </Grid>
 </Window>
