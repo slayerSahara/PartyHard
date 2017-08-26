@@ -1,0 +1,114 @@
+﻿<Window x:Class="Party_Hard.AdminFinancial"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Party_Hard"
+        mc:Ignorable="d"
+        Title="HRAdmin" Height="700" Width="1050">
+    <Grid Background="#4B2269" Height="670" VerticalAlignment="Top">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="303*"/>
+            <RowDefinition Height="367*"/>
+        </Grid.RowDefinitions>
+        <TabControl  Height="529" Margin="0,97,207,0" VerticalAlignment="Top" TabStripPlacement="Left" Grid.RowSpan="2">
+            <TabItem x:Name="Income" Header="Income Statement">
+                <StackPanel Margin="2,0,-2,0">
+                    <TextBlock TextWrapping="Wrap" Text="Income Statement" Margin="250,0,229,0" FontSize="25"/>
+                    <TextBlock TextWrapping="Wrap" Text="Revenues" Margin="40,10,563,0" FontSize="17"/>
+                    <TextBlock Height="25" TextWrapping="Wrap" Text="Events" Margin="80,10,563,0" FontSize="14"/>
+                    <TextBlock TextWrapping="Wrap" Text="$45,000" Margin="500,-30,126,0" Height="24" FontSize="14"/>
+                    <TextBlock TextWrapping="Wrap" Text="Partnerships" Margin="80,0,534,0" Height="21" FontSize="14"/>
+                    <TextBlock TextWrapping="Wrap" Text="$12,500" Margin="500,-30,126,0" Height="21" FontSize="14"/>
+                    <TextBlock TextWrapping="Wrap" Text="Total Revenue" Margin="50,0,534,0" Height="21" FontSize="14"/>
+                    <TextBlock TextWrapping="Wrap" Text="$57,500" Margin="520,-30,114,0" Height="20" FontSize="14" />
+                    <TextBlock TextWrapping="Wrap" Text="Expenses" Margin="40,40,563,0" FontSize="17"/>
+                    <TextBlock TextWrapping="Wrap" Text="Supplies" Margin="80,0,534,0" Height="21" FontSize="14"/>
+                    <TextBlock TextWrapping="Wrap" Text="$124,500" Margin="500,-30,126,0" Height="21" FontSize="14"/>
+                    <TextBlock TextWrapping="Wrap" Text="Rent" Margin="80,0,534,0" Height="21" FontSize="14"/>
+                    <TextBlock TextWrapping="Wrap" Text="$4,000" Margin="500,-30,126,0" Height="21" FontSize="14"/>
+                    <TextBlock TextWrapping="Wrap" Text="Utilities" Margin="80,0,534,0" Height="21" FontSize="14"/>
+                    <TextBlock TextWrapping="Wrap" Text="$300" Margin="500,-30,126,0" Height="21" FontSize="14"/>
+                    <TextBlock TextWrapping="Wrap" Text="Wages" Margin="80,0,534,0" Height="21" FontSize="14"/>
+                    <TextBlock TextWrapping="Wrap" Text="$420,000" Margin="500,-30,126,0" Height="21" FontSize="14"/>
+                    <TextBlock TextWrapping="Wrap" Text="Total Expenses" Margin="50,0,534,0" Height="21" FontSize="14"/>
+                    <TextBlock TextWrapping="Wrap" Text="$548,800" Margin="520,-30,114,0" Height="20" FontSize="14" />
+                    <TextBlock TextWrapping="Wrap" Text="Net Income" Margin="40,40,534,0" FontSize="17"/>
+                    <TextBlock TextWrapping="Wrap" Text="-$491,300" Margin="520,-30,96,0" Height="20" FontSize="16" />
+                    <Button Content="Edit Income Statement" HorizontalAlignment="Left" Margin="540,-360,0,0" VerticalAlignment="Top" Width="136" Grid.Row="1"/>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Balance Sheet">
+                <StackPanel>
+                    <TextBlock TextWrapping="Wrap" Text="Balance Sheet" Margin="250,0,258,0" FontSize="25"/>
+                    <TextBlock TextWrapping="Wrap" Text="Assets" Margin="40,10,563,0" FontSize="17"/>
+                    <TextBlock TextWrapping="Wrap" Text="Current Assets" Margin="60,10,514,0" FontSize="16"/>
+                    <TextBlock TextWrapping="Wrap" Text="Cash" Margin="80,10,494,0" FontSize="14"/>
+                    <TextBlock TextWrapping="Wrap" Text="$10,000" Margin="500,-30,126,0" Height="24" FontSize="14"/>
+                    <TextBlock TextWrapping="Wrap" Text="Accounts Receivable" Margin="80,10,474,0" FontSize="14"/>
+                    <TextBlock TextWrapping="Wrap" Text="$0" Margin="500,-30,126,0" Height="24" FontSize="14"/>
+                    <TextBlock TextWrapping="Wrap" Text="Inventory" Margin="80,10,474,0" FontSize="14"/>
+                    <TextBlock TextWrapping="Wrap" Text="$3,000" Margin="500,-30,126,0" Height="24" FontSize="14"/>
+                    <TextBlock TextWrapping="Wrap" Text="Total Assets" Margin="50,0,534,0" Height="21" FontSize="14"/>
+                    <TextBlock TextWrapping="Wrap" Text="$13,000" Margin="520,-30,114,0" Height="20" FontSize="14"/>
+                    <TextBlock TextWrapping="Wrap" Text="Liabilities" Margin="40,10,563,0" FontSize="17"/>
+                    <TextBlock TextWrapping="Wrap" Text="Current Liabilities" Margin="60,10,494,0" FontSize="16"/>
+                    <TextBlock TextWrapping="Wrap" Text="Accounts Payable" Margin="80,10,494,0" FontSize="14"/>
+                    <TextBlock TextWrapping="Wrap" Text="$12,006" Margin="500,-30,126,0" Height="24" FontSize="14"/>
+                    <TextBlock TextWrapping="Wrap" Text="Accured Expenses" Margin="80,10,494,0" FontSize="14"/>
+                    <TextBlock TextWrapping="Wrap" Text="$890" Margin="500,-30,126,0" Height="24" FontSize="14"/>
+                    <TextBlock TextWrapping="Wrap" Text="Total Liabilities" Margin="50,0,534,0" Height="21" FontSize="14"/>
+                    <TextBlock TextWrapping="Wrap" Text="$12,896" Margin="520,-30,114,0" Height="20" FontSize="14"/>
+                    <TextBlock TextWrapping="Wrap" Text="Owner's Equity" Margin="40,10,534,0" FontSize="17"/>
+                    <TextBlock TextWrapping="Wrap" Text="Retained Earnings" Margin="80,10,494,0" FontSize="14"/>
+                    <TextBlock TextWrapping="Wrap" Text="$650" Margin="500,-30,126,0" Height="24" FontSize="14"/>
+                    <TextBlock TextWrapping="Wrap" Text="Common Stock" Margin="80,10,494,0" FontSize="14"/>
+                    <TextBlock TextWrapping="Wrap" Text="$10" Margin="500,-30,126,0" Height="24" FontSize="14"/>
+                    <TextBlock TextWrapping="Wrap" Text="Total Owner's Equity" Margin="50,0,494,0" Height="21" FontSize="14"/>
+                    <TextBlock TextWrapping="Wrap" Text="$660" Margin="520,-30,114,0" Height="20" FontSize="14"/>
+                    <TextBlock TextWrapping="Wrap" Text="Total" Margin="40,10,563,0" FontSize="17"/>
+                    <TextBlock TextWrapping="Wrap" Text="-$556" Margin="520,-30,114,0" Height="20" FontSize="14"/>
+                    <Button Content="Edit Balance Sheet" HorizontalAlignment="Left" Margin="540,-480,0,0" VerticalAlignment="Top" Width="136" Grid.Row="1"/>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Cash Flow Statement">
+                <StackPanel>
+                    <TextBlock TextWrapping="Wrap" Text="Cash Flow Statement" Margin="250,0,213,0" FontSize="25"/>
+                    <TextBlock TextWrapping="Wrap" Text="Cash Flow From Operating Activities" Margin="40,10,376,0" FontSize="17"/>
+                    <TextBlock TextWrapping="Wrap" Text="Cash From Customers" Margin="80,10,468,0" FontSize="14"/>
+                    <TextBlock TextWrapping="Wrap" Text="$30,000" Margin="500,-21,126,0" Height="24" FontSize="14"/>
+                    <TextBlock TextWrapping="Wrap" Text="Wages" Margin="80,10,468,0" FontSize="14"/>
+                    <TextBlock TextWrapping="Wrap" Text="($420,000)" Margin="500,-21,126,0" Height="24" FontSize="14"/>
+                    <TextBlock TextWrapping="Wrap" Text="Total Operating Activities" Margin="50,0,478,0" Height="21" FontSize="14"/>
+                    <TextBlock TextWrapping="Wrap" Text="$-390,000" Margin="520,-30,114,0" Height="20" FontSize="14"/>
+                    <TextBlock TextWrapping="Wrap" Text="Cash Flow From Investing Activities" Margin="40,10,376,0" FontSize="17"/>
+                    <TextBlock TextWrapping="Wrap" Text="Equipment" Margin="80,10,468,0" FontSize="14"/>
+                    <TextBlock TextWrapping="Wrap" Text="($124,500)" Margin="500,-21,126,0" Height="24" FontSize="14"/>
+                    <TextBlock TextWrapping="Wrap" Text="Total Operating Activities" Margin="50,0,478,0" Height="21" FontSize="14"/>
+                    <TextBlock TextWrapping="Wrap" Text="$-124,500" Margin="520,-30,114,0" Height="20" FontSize="14"/>
+                    <TextBlock TextWrapping="Wrap" Text="Cash Flow From Financing Activities" Margin="40,10,376,0" FontSize="17"/>
+                    <TextBlock TextWrapping="Wrap" Text="Repayment of Loans" Margin="80,10,468,0" FontSize="14"/>
+                    <TextBlock TextWrapping="Wrap" Text="($900,500)" Margin="500,-21,126,0" Height="24" FontSize="14"/>
+                    <TextBlock TextWrapping="Wrap" Text="Total Operating Activities" Margin="50,0,478,0" Height="21" FontSize="14"/>
+                    <TextBlock TextWrapping="Wrap" Text="$-900,500" Margin="520,-30,114,0" Height="20" FontSize="14"/>
+                    <TextBlock TextWrapping="Wrap" Text="Cash Balance On September 1st, 2017" Margin="40,10,376,0" FontSize="17" Height="57"/>
+                    <TextBlock TextWrapping="Wrap" Text="$-1,415,000" Margin="520,-30,94,0" Height="20" FontSize="14"/>
+                    <Button Content="Edit Cash Flow Statement" HorizontalAlignment="Left" Margin="527,-380,0,0" VerticalAlignment="Top" Width="149" Grid.Row="1"/>
+                </StackPanel>
+            </TabItem>
+        </TabControl>
+        <Calendar HorizontalAlignment="Left" Margin="850,97,0,0" VerticalAlignment="Top"/>
+        <ListBox Margin="840,25,10,54" Grid.Row="1">
+            <TextBlock Text="Upcoming events" Margin="40,0,0,0" />
+            <Rectangle Fill="Coral" Height="100" Width="169" Margin="0,15,0,0"/>
+            <TextBlock Text="8/30/17 @ 3 PM" Margin="50,-90,0,80"/>
+            <TextBlock Text="Where: Elevate Event Center" Margin="10,-70,0,80"/>
+            <TextBlock Text="Cater: Jimmy John's" Margin="40,-70,0,80"/>
+            <Rectangle Fill="Aqua" Height="100" Width="169" Margin="0,15,0,0"/>
+            <TextBlock Text="9/2/17 @ 12 PM" Margin="50,-90,0,80"/>
+            <TextBlock Text="Where: Sky" Margin="65,-70,0,80"/>
+            <TextBlock Text="Cater: Culinary Crafts" Margin="35,-70,0,80"/>
+
+        </ListBox>
+    </Grid>
+</Window>
