@@ -19,9 +19,17 @@ namespace Party_Hard
     /// </summary>
     public partial class HR : Window
     {
+        public string name;
+        public string date;
+        public int ID;
         public HR()
         {
             InitializeComponent();
+        }
+
+        private void TabControl_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
         }
     }
 }

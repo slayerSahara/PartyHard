@@ -11,10 +11,17 @@
             <RowDefinition Height="303*"/>
             <RowDefinition Height="367*"/>
         </Grid.RowDefinitions>
-        <TabControl  Height="550" Margin="0,97,207,0" VerticalAlignment="Top" TabStripPlacement="Left" Grid.RowSpan="2">
-            <TabItem x:Name="Rectangle1" Header="Venue Partnership">
+        <TabControl  Height="550" Margin="0,97,207,0" VerticalAlignment="Top" TabStripPlacement="Left" Grid.RowSpan="2" SelectionChanged="TabControl_SelectionChanged">
+            <TabItem x:Name="Venues" Header="Venue Partnership">
                 <StackPanel>
-
+                    <Rectangle Height="100" Fill="Green" Margin="30, 40, 30 ,0"/>
+                    <TextBlock TextWrapping="Wrap" Margin="40,-100,527,0" Height="20" Text="Name: Marriott Hotel"/>
+                    <TextBlock Text="ID: 2" Margin="425,-105,233,0" Height="16" RenderTransformOrigin="2.45,0.294"/>
+                    <TextBlock Margin="170,-100,257,0" Text="Address: 220 State St, Salt Lake City, UT 84111" Height="20"/>
+                    <TextBlock Margin="465,-100,57,0" Text="Phone number: 801-126-2351 " Height="20"/>
+                    <Rectangle Height="100" Fill="Green" Margin="30, 40, 30 ,0"/>
+                    <TextBlock Margin="40,-100,500,0" Text="Name: Elevate Event Center" Height="20"/>
+                    <Rectangle Height="100" Fill="Green" Margin="30, 40, 30 ,0"/>
 
                 </StackPanel>
             </TabItem>
@@ -25,18 +32,9 @@
 
             </TabItem>
             <TabItem Header="Employee Information">
-                <StackPanel>
-                    <ListView Margin="0,100,225,60" HorizontalAlignment="Right" Width="224">
-                        <ListView.View>
-                            <GridView>
-                                <GridViewColumn Header="Name" Width="120" DisplayMemberBinding="{Binding Name}" />
-                                <GridViewColumn Header="DOB" Width="100" DisplayMemberBinding="{Binding Age}" />
-                            </GridView>
-                        </ListView.View>
-                    </ListView>
 
-                </StackPanel>
             </TabItem>
+
         </TabControl>
         <Calendar HorizontalAlignment="Left" Margin="850,97,0,0" VerticalAlignment="Top"/>
         <Button Content="File Report" Margin="760,35,207,246" Width="75"/>
