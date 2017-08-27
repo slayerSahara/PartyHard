@@ -28,5 +28,13 @@ namespace Party_Hard
         {
 
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow login = new MainWindow();
+            login.Show();
+            App.Current.MainWindow = login;
+            this.Close();
+        }
     }
 }

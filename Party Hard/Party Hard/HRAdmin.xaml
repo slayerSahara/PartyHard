@@ -116,6 +116,6 @@
 
         </ListBox>
         <Button Height="50" Width="100" Margin="886,31.5,56,221.5" Foreground="#03080e" FontWeight="Bold" FontSize="18" 
-            BorderBrush="#03080e" BorderThickness="2" RenderTransformOrigin="0.185,0.57" Content="Log Out"/>
+            BorderBrush="#03080e" BorderThickness="2" RenderTransformOrigin="0.185,0.57" Content="Log Out" Click="Button_Click"/>
     </Grid>
 </Window>
