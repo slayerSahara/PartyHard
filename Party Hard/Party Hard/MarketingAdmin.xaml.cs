@@ -15,23 +15,13 @@ using System.Windows.Shapes;
 namespace Party_Hard
 {
     /// <summary>
-    /// Interaction logic for Market.xaml
+    /// Interaction logic for MarketingAdmin.xaml
     /// </summary>
-    public partial class Market : Window
+    public partial class MarketingAdmin : Window
     {
-        public Market()
+        public MarketingAdmin()
         {
             InitializeComponent();
-        }
-
-        private void TabControl_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-
-        }
-
-        private void ListView_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-
         }
     }
 }

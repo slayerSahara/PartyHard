@@ -1,0 +1,86 @@
+﻿<Window x:Class="Party_Hard.MarketingAdmin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Party_Hard"
+        mc:Ignorable="d"
+        Title="MarketingAdmin" Height="700" Width="1050">
+    <Grid Background="#4B2269">
+        <TabControl Margin="0,97,207,0" TabStripPlacement="Left" SelectionChanged="TabControl_SelectionChanged">
+            <TabItem Header="Food">
+                <StackPanel Margin="0,-1,0,-4">
+                    <Rectangle Height="100" Fill="Silver" Margin="30, 40, 30 ,0" Stroke="#C0FFC7" StrokeThickness="8"/>
+                    <TextBlock TextWrapping="Wrap" Margin="40,-100,527,0" Height="20" Text="Name: Dickey's Barbecue Pit"/>
+                    <TextBlock Margin="199,-100,256.6,0" Text="Address: 335 W 1830 S Salt Lake City, UT 84115" Height="20"/>
+                    <TextBlock Margin="465,-100,57,0" Text="Phone number: (801) 467-6984 " Height="20"/>
+                    <Rectangle Height="100" Fill="Silver" Margin="30, 40, 30 ,0" Stroke="#C0FFC7" StrokeThickness="8"/>
+                    <TextBlock Margin="40,-86,574.6,0" Text="Name: Noodle and Company" Height="36" TextWrapping="Wrap"/>
+                    <TextBlock Margin="202,-100,257,0" Text="Address: 358 South 700 East Salt Lake City, UT 84102" Height="20"/>
+                    <TextBlock Margin="495,-100,57,0" Text="Phone number: (801) 359-8315 " Height="20"/>
+                    <Rectangle Height="100" Fill="Silver" Margin="30, 40, 30 ,0" Stroke="#C0FFC7" StrokeThickness="8"/>
+                    <TextBlock TextWrapping="Wrap" Margin="40,-100,527,0" Height="20" Text="Name: Jimmy Johns"/>
+                    <TextBlock Margin="188,-100,292,0" Text="Address: 1842 S. 300W. Salt Lake City, UT 84102" Height="20"/>
+                    <TextBlock Margin="465,-100,57,0" Text="Phone number: (801) 953-0055" Height="20"/>
+                    <Button Name="Editrest" Content="Edit Restaurants" Margin="600,-800,10,0" Height="24"/>
+                    <Button Name="Newrest" Content="New Restaurants" HorizontalAlignment="Left" Margin="20,-410,0,0" VerticalAlignment="Top" Width="96" RenderTransformOrigin="0.419,0.436"/>
+                    <Button Name="Deleterest" Content="Delete Restaurants"  Margin="140,-410,510,0" VerticalAlignment="Top" RenderTransformOrigin="0.419,0.436"/>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Vendors">
+                <StackPanel>
+                    <Rectangle Height="100" Fill="Silver" Margin="30, 40, 30 ,0" Stroke="#C0FFC7" StrokeThickness="8"/>
+                    <TextBlock TextWrapping="Wrap" Margin="40,-100,568.6,0" Height="20" Text="Name: Marriott Hotel"/>
+                    <TextBlock Margin="205,-100,308.6,0" Text="Address: 220 State St, Salt Lake City, UT 84111" Height="20"/>
+                    <TextBlock Margin="487,-100,56.6,0" Text="Phone number: 801-126-2351 " Height="20"/>
+                    <Rectangle Height="100" Fill="Silver" Margin="30, 40, 30 ,0" Stroke="#C0FFC7" StrokeThickness="8"/>
+                    <TextBlock Margin="40,-86,568.6,0" Text="Name: Elevate Event Center" Height="36" TextWrapping="Wrap"/>
+                    <TextBlock Margin="205,-100,308.6,0" Text="Address: 149 W 200 S, Salt lake city, UT 84101" Height="20"/>
+                    <TextBlock Margin="487,-100,56.6,0" Text="Phone number: 801-812-2323 " Height="20"/>
+                    <Rectangle Height="100" Fill="Silver" Margin="30, 40, 30 ,0" Stroke="#C0FFC7" StrokeThickness="8"/>
+                    <TextBlock TextWrapping="Wrap" Margin="40,-100,573.6,0" Height="20" Text="Name: Sky"/>
+                    <TextBlock Margin="205,-100,308.6,0" Text="Address: 149 W Pierpont, Salt Lake City, UT 84101" Height="20"/>
+                    <TextBlock Margin="487,-100,56.6,0" Text="Phone number: 801-683-5942" Height="20"/>
+                    <Button Name="EditVendors" Content="Edit Vendors" Margin="600,-800,10,0" Height="24"/>
+                    <Button Name="NewVendor" Content="New Vendors" HorizontalAlignment="Left" Margin="20,-410,0,0" VerticalAlignment="Top" Width="96" RenderTransformOrigin="0.419,0.436"/>
+                    <Button Name="DeleteVendors" Content="Delete Vendors"  Margin="140,-410,510,0" VerticalAlignment="Top" RenderTransformOrigin="0.419,0.436"/>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Advertising">
+                <StackPanel>
+                    <Rectangle Height="100" Fill="Silver" Margin="30, 40, 30 ,0" Stroke="#C0FFC7" StrokeThickness="8"/>
+                    <TextBlock TextWrapping="Wrap" Margin="40,-100,570,0" Height="34" Text="Name: Freestyle Marketing Group"/>
+                    <TextBlock Margin="191,-100,257,0" Text="Address: 211 Broadway # 214, Salt Lake City, UT 84111" Height="20"/>
+                    <TextBlock Margin="504,-100,57,0" Text="Phone number: 801-621-6438" Height="20"/>
+                    <Rectangle Height="100" Fill="Silver" Margin="30, 40, 30 ,0" Stroke="#C0FFC7" StrokeThickness="8"/>
+                    <TextBlock Margin="40,-86,570,0" Text="Name: Struck" Height="36" TextWrapping="Wrap"/>
+                    <TextBlock Margin="191,-100,275,0" Text="Address: 159 Broadway #200, Salt Lake City, UT 84101" Height="20"/>
+                    <TextBlock Margin="504,-100,57,0" Text="Phone number: 801-218-5318 " Height="20"/>
+                    <Rectangle Height="100" Fill="Silver" Margin="30, 40, 30 ,0" Stroke="#C0FFC7" StrokeThickness="8"/>
+                    <TextBlock TextWrapping="Wrap" Margin="40,-100,570,0" Height="20" Text="Name: Axis41"/>
+                    <TextBlock Margin="191,-100,275,0" Text="Address: 175 W 200 S #4100, Salt Lake City, UT 84101" Height="20"/>
+                    <TextBlock Margin="504,-100,57,0" Text="Phone number: 801-386-3581" Height="20"/>
+                    <Button Name="EditAd" Content="Edit Advertising" Margin="600,-800,10,0" Height="24"/>
+                    <Button Name="NewAd" Content="New Advertising" HorizontalAlignment="Left" Margin="20,-410,0,0" VerticalAlignment="Top" Width="96" RenderTransformOrigin="0.419,0.436"/>
+                    <Button Name="DeleteAd" Content="Delete Advertising"  Margin="140,-410,510,0" VerticalAlignment="Top" RenderTransformOrigin="0.419,0.436"/>
+                </StackPanel>
+            </TabItem>
+        </TabControl>
+        <ListBox Margin="841,296,0.2,5.4">
+            <TextBlock Text="Upcoming events" Margin="40,0,0,0" />
+            <Rectangle Fill="Coral" Height="100" Width="169" Margin="0,15,0,0"/>
+            <TextBlock Text="8/30/17 @ 3 PM" Margin="50,-90,0,80"/>
+            <TextBlock Text="Where: Elevate Event Center" Margin="10,-70,0,80"/>
+            <TextBlock Text="Cater: Jimmy John's" Margin="40,-70,0,80"/>
+            <Rectangle Fill="Aqua" Height="100" Width="169" Margin="0,15,0,0"/>
+            <TextBlock Text="9/2/17 @ 12 PM" Margin="50,-90,0,80"/>
+            <TextBlock Text="Where: Sky" Margin="65,-70,0,80"/>
+            <TextBlock Text="Cater: Culinary Crafts" Margin="35,-70,0,80"/>
+
+        </ListBox>
+        <Calendar Height="170" HorizontalAlignment="Left" Margin="852,97,0,0"
+              Name="calendar1" VerticalAlignment="Top" Width="180" />
+        <StackPanel HorizontalAlignment="Left" Height="529" Margin="0,75,0,0" VerticalAlignment="Top" Width="100"/>
+        <Button Content="Logout" HorizontalAlignment="Left" Margin="932,10,0,0" VerticalAlignment="Top" Width="100" Height="50"/>
+    </Grid>
+</Window>
