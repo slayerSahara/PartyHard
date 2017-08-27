@@ -1,0 +1,193 @@
+﻿<Window x:Class="Party_Hard.LogisticsReg"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Party_Hard"
+        mc:Ignorable="d"
+        Title="Logistics - Regular" Height="700" Width="1050">
+    <Grid Background="#4b2269">
+        <TextBlock Foreground="#c0ffc7" FontSize="28" Height="50" Margin="31,31,856,588">Party Hard</TextBlock>
+        <Button Height="50" Width="100" Margin="886,31,56,588" Foreground="#03080e" FontWeight="Bold" FontSize="18" 
+                BorderBrush="#03080e" BorderThickness="2" RenderTransformOrigin="0.185,0.57">Log Out</Button>
+        <Calendar Margin="840,148,5,351"></Calendar>
+        <ListBox Width="180" Margin="845,368,10,85">Upcoming Events: </ListBox>
+        <TabControl TabStripPlacement="Left" Margin="0,108,207,0">
+            <TabItem Header="Upcoming" Foreground="#03080e" FontWeight="Bold" Height="50">
+                <StackPanel>
+                    <ScrollViewer>
+                        <Grid Height="1252" ScrollViewer.CanContentScroll="True" ShowGridLines="True">
+                            <Grid.RowDefinitions>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                        </Grid>
+                    </ScrollViewer>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Partners" Foreground="#03080e" FontWeight="Bold" Height="50">
+                <StackPanel>
+                    <ScrollViewer>
+                        <Grid Height="1252" ScrollViewer.CanContentScroll="True" ShowGridLines="True">
+                            <Grid.RowDefinitions>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                        </Grid>
+                    </ScrollViewer>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Venues" Foreground="#03080e" FontWeight="Bold" Height="50">
+                <StackPanel>
+                    <ScrollViewer>
+                        <Grid Height="1252" ScrollViewer.CanContentScroll="True" ShowGridLines="True">
+                            <Grid.RowDefinitions>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                        </Grid>
+                    </ScrollViewer>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Restaurants" Foreground="#03080e" FontWeight="Bold" Height="50">
+                <StackPanel>
+                    <ScrollViewer>
+                        <Grid Height="1252" ScrollViewer.CanContentScroll="True" ShowGridLines="True">
+                            <Grid.RowDefinitions>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                        </Grid>
+                    </ScrollViewer>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Vendors" Foreground="#03080e" FontWeight="Bold" Height="50">
+                <StackPanel>
+                    <ScrollViewer>
+                        <Grid Height="1252" ScrollViewer.CanContentScroll="True" ShowGridLines="True">
+                            <Grid.RowDefinitions>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                        </Grid>
+                    </ScrollViewer>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Photographers" Foreground="#03080e" FontWeight="Bold" Height="50">
+                <StackPanel>
+                    <ScrollViewer>
+                        <Grid Height="1252" ScrollViewer.CanContentScroll="True" ShowGridLines="True">
+                            <Grid.RowDefinitions>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                        </Grid>
+                    </ScrollViewer>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Entertainment" Foreground="#03080e" FontWeight="Bold" Height="50">
+                <StackPanel>
+                    <ScrollViewer>
+                        <Grid Height="1252" ScrollViewer.CanContentScroll="True" ShowGridLines="True">
+                            <Grid.RowDefinitions>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                        </Grid>
+                    </ScrollViewer>
+                </StackPanel>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>
