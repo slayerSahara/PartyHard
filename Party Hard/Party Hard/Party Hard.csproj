@@ -119,6 +119,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="OfficeSupport.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="LogisticsAdmin.xaml.cs">
@@ -129,6 +133,9 @@
     </Compile>
     <Compile Include="Management.xaml.cs">
       <DependentUpon>Management.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="OfficeSupport.xaml.cs">
+      <DependentUpon>OfficeSupport.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
