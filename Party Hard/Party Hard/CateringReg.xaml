@@ -11,20 +11,82 @@
         <Button Height="50" Width="100" Margin="886,31,56,588" Foreground="#03080e" FontWeight="Bold" FontSize="18" 
                 BorderBrush="#03080e" BorderThickness="2" RenderTransformOrigin="0.185,0.57">Log Out</Button>
         <Calendar Margin="840,148,5,351"></Calendar>
+        <ListBox Width="180" Margin="845,368,10,85">Upcoming Events:</ListBox>
         <TabControl TabStripPlacement="Left" Margin="0,108,207,0">
             <TabItem Header="Upcoming" Foreground="#03080e" FontWeight="Bold" Height="50">
                 <StackPanel>
-
+                    <ScrollViewer>
+                        <Grid Height="1252" ScrollViewer.CanContentScroll="True" ShowGridLines="True">
+                            <Grid.RowDefinitions>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                        </Grid>
+                    </ScrollViewer>
+                    <TextBlock></TextBlock>
                 </StackPanel>
             </TabItem>
             <TabItem Header="Restaurants" Foreground="#03080e" FontWeight="Bold" Height="50">
                 <StackPanel>
-                    
+                    <ScrollViewer>
+                        <Grid Height="1252" ScrollViewer.CanContentScroll="True" ShowGridLines="True">
+                            <Grid.RowDefinitions>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                        </Grid>
+                    </ScrollViewer>
                 </StackPanel>
             </TabItem>
             <TabItem Header="Partners" Foreground="#03080e" FontWeight="Bold" Height="50">
                 <StackPanel>
-                    
+                    <ScrollViewer>
+                        <Grid Height="1252" ScrollViewer.CanContentScroll="True" ShowGridLines="True">
+                            <Grid.RowDefinitions>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                        </Grid>
+                    </ScrollViewer>
                 </StackPanel>
             </TabItem>
         </TabControl>
