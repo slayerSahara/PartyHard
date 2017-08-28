@@ -20,6 +20,9 @@
                     <RowDefinition/>
                     <RowDefinition/>
                 </Grid.RowDefinitions>
+                <Border Grid.Row="0" BorderBrush="#c0ffc7" BorderThickness="2"></Border>
+                <Border Grid.Row="1" BorderBrush="#c0ffc7" BorderThickness="2"></Border>
+                <Border Grid.Row="2" BorderBrush="#c0ffc7" BorderThickness="2"></Border>
             </Grid>
         </ListBox>
         <TabControl TabStripPlacement="Left" Margin="0,108,207,0">

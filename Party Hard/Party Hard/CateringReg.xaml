@@ -18,7 +18,11 @@
                         <RowDefinition/>
                         <RowDefinition/>
                     </Grid.RowDefinitions>
-                </Grid>
+                <Border Grid.Row="0" BorderBrush="#c0ffc7" BorderThickness="2"></Border>
+                <Border Grid.Row="1" BorderBrush="#c0ffc7" BorderThickness="2"></Border>
+                <Border Grid.Row="2" BorderBrush="#c0ffc7" BorderThickness="2"></Border>
+
+            </Grid>
         </ListBox>
         <TabControl TabStripPlacement="Left" Margin="0,108,207,0">
             <TabItem Header="Upcoming" Foreground="#03080e" FontWeight="Bold" Height="50">
@@ -35,6 +39,11 @@
                                 <RowDefinition/>
                                 <RowDefinition/>
                             </Grid.RowDefinitions>
+
+                            <TextBlock Grid.Row="0" FontSize="15" Margin="31,26,201,59" Height="25">Gomez Wedding</TextBlock>
+                            <TextBlock Grid.Row="0" FontSize="15" Margin="31,70,246,15" Height="25">09/20/17</TextBlock>
+                            <TextBlock Grid.Row="0" FontSize="15" Margin="230,26,23,59" Height="25">Seafood Buffet</TextBlock>
+                            <TextBlock Grid.Row="0" FontSize="15" Margin="258,70,23,15" Height="25">100 Guests</TextBlock>
 
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition/>
