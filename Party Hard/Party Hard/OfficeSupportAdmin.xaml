@@ -11,7 +11,7 @@
             <RowDefinition Height="303*"/>
             <RowDefinition Height="367*"/>
         </Grid.RowDefinitions>
-        <TabControl  Height="550" Margin="0,97,207,0" VerticalAlignment="Top" TabStripPlacement="Left" Grid.RowSpan="2" SelectionChanged="TabControl_SelectionChanged">
+        <TabControl  Height="550" Margin="0,97,207,0" VerticalAlignment="Top" TabStripPlacement="Left" Grid.RowSpan="2">
             <TabItem x:Name="Venues" Header="Customers">
                 <StackPanel>
                     <Rectangle Height="100" Fill="Green" Margin="30, 40, 30 ,0"/>

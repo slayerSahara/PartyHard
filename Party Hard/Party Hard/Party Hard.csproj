@@ -119,6 +119,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="OfficeSupportAdmin.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="OfficeSupport.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -133,6 +137,9 @@
     </Compile>
     <Compile Include="Management.xaml.cs">
       <DependentUpon>Management.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="OfficeSupportAdmin.xaml.cs">
+      <DependentUpon>OfficeSupportAdmin.xaml</DependentUpon>
     </Compile>
     <Compile Include="OfficeSupport.xaml.cs">
       <DependentUpon>OfficeSupport.xaml</DependentUpon>
