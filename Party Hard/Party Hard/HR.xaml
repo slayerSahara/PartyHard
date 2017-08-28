@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Party_Hard"
         mc:Ignorable="d"
-        Title="HR" Height="700" Width="1050">
+        Title="HR" Height="700" Width="1050" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
     <Grid Background="#4B2269" Height="670" VerticalAlignment="Top">
         <Grid.RowDefinitions>
             <RowDefinition Height="303*"/>

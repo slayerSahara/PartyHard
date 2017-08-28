@@ -31,5 +31,10 @@ namespace Party_Hard
             App.Current.MainWindow = login;
             this.Close();
         }
+
+        private void Add_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
