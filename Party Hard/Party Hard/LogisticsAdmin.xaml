@@ -5,13 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Party_Hard"
         mc:Ignorable="d"
-        Title="Logistics - Admin" Height="700" Width="1050" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+        Title="Logistics - Admin" Height="700" Width="1050">
     <Grid Background="#4b2269">
         <TextBlock Foreground="#c0ffc7" FontSize="28" Height="50" Margin="31,31,856,588">Party Hard</TextBlock>
         <Button x:Name="Logout" Height="50" Width="100" Margin="886,31,56,588" Foreground="#03080e" FontWeight="Bold" FontSize="18" 
-                BorderBrush="#03080e" BorderThickness="2" RenderTransformOrigin="0.185,0.57" Click="Logout_Click">Log Out</Button>
-        <Button x:Name="Add" Height="50" Width="100" Margin="735,31,207,588" Foreground="#03080e" FontWeight="Bold" FontSize="18"
-                BorderBrush="#03080e" BorderThickness="2" Click="Add_Click">Add New</Button>
+                BorderBrush="#03080e" BorderThickness="2" RenderTransformOrigin="0.185,0.57">Log Out</Button>
         <Calendar Margin="840,148,5,351"></Calendar>
         <ListBox Width="180" Margin="845,368,10,85">Upcoming Events:
             <Grid Height="180" Width="165" ShowGridLines="True">
@@ -20,9 +18,6 @@
                     <RowDefinition/>
                     <RowDefinition/>
                 </Grid.RowDefinitions>
-                <Border Grid.Row="0" BorderBrush="#c0ffc7" BorderThickness="2"></Border>
-                <Border Grid.Row="1" BorderBrush="#c0ffc7" BorderThickness="2"></Border>
-                <Border Grid.Row="2" BorderBrush="#c0ffc7" BorderThickness="2"></Border>
             </Grid>
         </ListBox>
         <TabControl TabStripPlacement="Left" Margin="0,108,207,0">
@@ -41,6 +36,7 @@
                                 <RowDefinition/>
                             </Grid.RowDefinitions>
                             <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
                                 <ColumnDefinition/>
                                 <ColumnDefinition/>
                             </Grid.ColumnDefinitions>

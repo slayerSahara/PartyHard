@@ -53,9 +53,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Marketing.xaml.cs">
-      <DependentUpon>Marketing.xaml</DependentUpon>
-    </Compile>
     <Page Include="AdminFinancial.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -122,19 +119,11 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-<<<<<<< HEAD
     <Page Include="OfficeSupportAdmin.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
     <Page Include="OfficeSupport.xaml">
-=======
-    <Page Include="Marketing.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="MarketingAdmin.xaml">
->>>>>>> cbc38da14ae9e75e1a349a11cca1c5814bf8f4ab
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -149,16 +138,11 @@
     <Compile Include="Management.xaml.cs">
       <DependentUpon>Management.xaml</DependentUpon>
     </Compile>
-<<<<<<< HEAD
     <Compile Include="OfficeSupportAdmin.xaml.cs">
       <DependentUpon>OfficeSupportAdmin.xaml</DependentUpon>
     </Compile>
     <Compile Include="OfficeSupport.xaml.cs">
       <DependentUpon>OfficeSupport.xaml</DependentUpon>
-=======
-    <Compile Include="MarketingAdmin.xaml.cs">
-      <DependentUpon>MarketingAdmin.xaml</DependentUpon>
->>>>>>> cbc38da14ae9e75e1a349a11cca1c5814bf8f4ab
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>

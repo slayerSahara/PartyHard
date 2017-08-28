@@ -17,24 +17,11 @@ namespace Party_Hard
     /// <summary>
     /// Interaction logic for Window1.xaml
     /// </summary>
-    public partial class Marketing : Window
+    public partial class Window1 : Window
     {
-        public Marketing()
+        public Window1()
         {
             InitializeComponent();
-        }
-
-        private void LogoutButton_Click(object sender, RoutedEventArgs e)
-        {
-            MainWindow login = new MainWindow();
-            login.Show();
-            App.Current.MainWindow = login;
-            this.Close();
-        }
-
-        private void TabControl_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-
         }
     }
 }

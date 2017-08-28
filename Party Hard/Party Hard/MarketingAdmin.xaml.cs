@@ -23,18 +23,5 @@ namespace Party_Hard
         {
             InitializeComponent();
         }
-
-        private void TabControl_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-
-        }
-
-        private void LogoutButton_Click(object sender, RoutedEventArgs e)
-        {
-            MainWindow login = new MainWindow();
-            login.Show();
-            App.Current.MainWindow = login;
-            this.Close();
-        }
     }
 }
