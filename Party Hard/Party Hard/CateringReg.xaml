@@ -18,6 +18,9 @@
                         <RowDefinition/>
                         <RowDefinition/>
                     </Grid.RowDefinitions>
+
+                <TextBlock Grid.Row="0" FontSize="12" Margin="37,10,37,28">Gomez Wedding</TextBlock>
+                    
                 <Border Grid.Row="0" BorderBrush="#c0ffc7" BorderThickness="2"></Border>
                 <Border Grid.Row="1" BorderBrush="#c0ffc7" BorderThickness="2"></Border>
                 <Border Grid.Row="2" BorderBrush="#c0ffc7" BorderThickness="2"></Border>
@@ -45,6 +48,10 @@
                             <TextBlock Grid.Row="0" FontSize="15" Margin="230,26,23,59" Height="25">Seafood Buffet</TextBlock>
                             <TextBlock Grid.Row="0" FontSize="15" Margin="258,70,23,15" Height="25">100 Guests</TextBlock>
 
+                            <TextBlock Grid.Row="0" Grid.Column="1" FontSize="15" Margin="31,26,201,59" Height="25">Johhny Birthday</TextBlock>
+                            <TextBlock Grid.Row="0" Grid.Column="1" FontSize="15" Margin="31,70,246,15" Height="25">09/21/17</TextBlock>
+                            <TextBlock Grid.Row="0" Grid.Column="1" FontSize="15" Margin="307,26,23,59" Height="25">BBQ</TextBlock>
+                            <TextBlock Grid.Row="0" Grid.Column="1" FontSize="15" Margin="271,70,10,15" Height="25">30 Guests</TextBlock>
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition/>
                                 <ColumnDefinition/>
