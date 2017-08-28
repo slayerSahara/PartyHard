@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Party_Hard"
         mc:Ignorable="d"
-        Title="HRAdmin" Height="700" Width="1050">
+        Title="HRAdmin" Height="700" Width="1050" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
     <Grid Background="#4B2269" Height="670" VerticalAlignment="Top">
         <Grid.RowDefinitions>
             <RowDefinition Height="303*"/>
@@ -109,6 +109,6 @@
 
         </ListBox>
         <Button Height="50" Width="100" Margin="886,31.5,56,221.5" Foreground="#03080e" FontWeight="Bold" FontSize="18" 
-            BorderBrush="#03080e" BorderThickness="2" RenderTransformOrigin="0.185,0.57" Content="Log Out"/>
+            BorderBrush="#03080e" BorderThickness="2" RenderTransformOrigin="0.185,0.57" Content="Log Out" Click="Button_Click"/>
     </Grid>
 </Window>
