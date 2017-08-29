@@ -29,10 +29,9 @@ namespace Party_Hard
 
         }
 
-        private void LogoutButton_click(object sender, RoutedEventArgs e)
+         private void LogoutButton_click(object sender, RoutedEventArgs e)
         {
-            Marketing mark = new Marketing();
-            mark.Show();
+            MainWindow login = new MainWindow();
             this.Close();
         }
     }
