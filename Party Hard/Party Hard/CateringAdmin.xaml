@@ -20,6 +20,10 @@
                     <RowDefinition/>
                     <RowDefinition/>
                 </Grid.RowDefinitions>
+                <TextBlock Grid.Row="0" FontSize="15" Margin="10,10,36,24">Gomez Wedding</TextBlock>
+                <TextBlock Grid.Row="1" FontSize="15" Margin="10,10,36,24">Billy Bday</TextBlock>
+                <TextBlock Grid.Row="2" FontSize="15" Margin="10,10,10,24">Anne Baby Shower</TextBlock>
+                
                 <Border Grid.Row="0" BorderBrush="#c0ffc7" BorderThickness="2"></Border>
                 <Border Grid.Row="1" BorderBrush="#c0ffc7" BorderThickness="2"></Border>
                 <Border Grid.Row="2" BorderBrush="#c0ffc7" BorderThickness="2"></Border>
@@ -40,6 +44,21 @@
                                 <RowDefinition/>
                                 <RowDefinition/>
                             </Grid.RowDefinitions>
+                            <TextBlock Grid.Row="0" FontSize="15" Margin="31,26,201,59" Height="25">Gomez Wedding</TextBlock>
+                            <TextBlock Grid.Row="0" FontSize="15" Margin="31,70,246,15" Height="25">09/20/17</TextBlock>
+                            <TextBlock Grid.Row="0" FontSize="15" Margin="230,26,23,59" Height="25">Seafood Buffet</TextBlock>
+                            <TextBlock Grid.Row="0" FontSize="15" Margin="258,70,23,15" Height="25">100 Guests</TextBlock>
+
+                            <TextBlock Grid.Row="0" Grid.Column="1" FontSize="15" Margin="31,26,201,59" Height="25">Billy Birthday</TextBlock>
+                            <TextBlock Grid.Row="0" Grid.Column="1" FontSize="15" Margin="31,70,246,15" Height="25">09/21/17</TextBlock>
+                            <TextBlock Grid.Row="0" Grid.Column="1" FontSize="15" Margin="305,26,23,59" Height="25">BBQ</TextBlock>
+                            <TextBlock Grid.Row="0" Grid.Column="1" FontSize="15" Margin="271,70,23,15" Height="25">30 Guests</TextBlock>
+
+                            <TextBlock Grid.Row="1" FontSize="15" Margin="31,26,201,59" Height="25">Anne Baby Shower</TextBlock>
+                            <TextBlock Grid.Row="1" FontSize="15" Margin="31,70,246,15" Height="25">09/30/17</TextBlock>
+                            <TextBlock Grid.Row="1" FontSize="15" Margin="284,26,23,59" Height="25">Burgers</TextBlock>
+                            <TextBlock Grid.Row="1" FontSize="15" Margin="271,70,23,15" Height="25">25 Guests</TextBlock>
+                            
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition/>
                                 <ColumnDefinition/>
