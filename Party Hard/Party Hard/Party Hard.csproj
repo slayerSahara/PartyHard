@@ -123,6 +123,12 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Marketing.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    <Page Include="MarketingAdmin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="LogisticsAdmin.xaml.cs">
