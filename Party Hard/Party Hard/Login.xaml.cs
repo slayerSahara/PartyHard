@@ -179,6 +179,16 @@ namespace Party_Hard
                         Management mng = new Management();
                         mng.Show();
                     }
+                    else if (sb.ToString() == "9898")
+                    {
+                        Marketing mkt = new Marketing();
+                        mkt.Show();
+                    }
+                    else if (sb.ToString() == "9998")
+                    {
+                        MarketingAdmin mktA = new MarketingAdmin();
+                        mktA.Show();
+                    }
                 }
             }
         }
