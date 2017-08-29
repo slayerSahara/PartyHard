@@ -23,5 +23,16 @@ namespace Party_Hard
         {
             InitializeComponent();
         }
+
+        private void TabControl_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+        private void LogoutButton_click(object sender, RoutedEventArgs e)
+        {
+            Marketing mark = new Marketing();
+            mark.Show();
+            this.Close();
+        }
     }
 }

@@ -17,11 +17,23 @@ namespace Party_Hard
     /// <summary>
     /// Interaction logic for Window1.xaml
     /// </summary>
-    public partial class Maketing : Window
+    public partial class Marketing : Window
     {
-        public Maketing()
+        public Marketing()
         {
             InitializeComponent();
+        }
+
+        private void TabControl_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+        private void LogoutButton_click(object sender, RoutedEventArgs e)
+        {
+            Marketing mark = new Marketing();
+            mark.Show();
+            this.Close();
         }
     }
 }

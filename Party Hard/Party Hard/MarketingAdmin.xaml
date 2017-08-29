@@ -81,6 +81,6 @@
         <Calendar Height="170" HorizontalAlignment="Left" Margin="852,97,0,0"
               Name="calendar1" VerticalAlignment="Top" Width="180" />
         <StackPanel HorizontalAlignment="Left" Height="529" Margin="0,75,0,0" VerticalAlignment="Top" Width="100"/>
-        <Button Content="Logout" HorizontalAlignment="Left" Margin="932,10,0,0" VerticalAlignment="Top" Width="100" Height="50"/>
+        <Button Content="Logout" HorizontalAlignment="Left" Margin="932,10,0,0" VerticalAlignment="Top" Width="100" Height="50" Click="LogoutButton_click"/>
     </Grid>
 </Window>

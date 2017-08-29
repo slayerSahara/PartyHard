@@ -126,11 +126,11 @@
     <Page Include="Marketing.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
-     </Page>
+    </Page>
     <Page Include="MarketingAdmin.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
-      </Page>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="LogisticsAdmin.xaml.cs">
@@ -141,6 +141,12 @@
     </Compile>
     <Compile Include="Management.xaml.cs">
       <DependentUpon>Management.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Marketing.xaml.cs">
+      <DependentUpon>Marketing.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MarketingAdmin.xaml.cs">
+      <DependentUpon>MarketingAdmin.xaml</DependentUpon>
     </Compile>
     <Compile Include="OfficeSupport.xaml.cs">
       <DependentUpon>OfficeSupport.xaml</DependentUpon>
