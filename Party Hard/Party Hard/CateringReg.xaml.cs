@@ -23,13 +23,5 @@ namespace Party_Hard
         {
             InitializeComponent();
         }
-
-        private void Logout_Click(object sender, RoutedEventArgs e)
-        {
-            MainWindow login = new MainWindow();
-            login.Show();
-            App.Current.MainWindow = login;
-            this.Close();
-        }
     }
 }

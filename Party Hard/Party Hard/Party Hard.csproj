@@ -119,6 +119,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <Page Include="OfficeSupportAdmin.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+=======
+>>>>>>> parent of cbc38da... Fixed the errors on both basic user and admin for the marketing page.
+=======
+>>>>>>> parent of cbc38da... Fixed the errors on both basic user and admin for the marketing page.
+=======
+>>>>>>> parent of ab009c8... OfficeSupport
     <Page Include="OfficeSupport.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -134,6 +147,18 @@
     <Compile Include="Management.xaml.cs">
       <DependentUpon>Management.xaml</DependentUpon>
     </Compile>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+    <Compile Include="OfficeSupportAdmin.xaml.cs">
+      <DependentUpon>OfficeSupportAdmin.xaml</DependentUpon>
+    </Compile>
+=======
+>>>>>>> parent of cbc38da... Fixed the errors on both basic user and admin for the marketing page.
+=======
+>>>>>>> parent of cbc38da... Fixed the errors on both basic user and admin for the marketing page.
+=======
+>>>>>>> parent of ab009c8... OfficeSupport
     <Compile Include="OfficeSupport.xaml.cs">
       <DependentUpon>OfficeSupport.xaml</DependentUpon>
     </Compile>
