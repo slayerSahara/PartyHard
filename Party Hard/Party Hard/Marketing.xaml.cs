@@ -17,9 +17,9 @@ namespace Party_Hard
     /// <summary>
     /// Interaction logic for Window1.xaml
     /// </summary>
-    public partial class Window1 : Window
+    public partial class Maketing : Window
     {
-        public Window1()
+        public Maketing()
         {
             InitializeComponent();
         }

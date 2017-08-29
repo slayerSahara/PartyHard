@@ -67,7 +67,7 @@
             <TextBlock Text="9/2/17 @ 12 PM" Margin="50,-90,0,80"/>
             <TextBlock Text="Where: Sky" Margin="65,-70,0,80"/>
             <TextBlock Text="Cater: Culinary Crafts" Margin="35,-70,0,80"/>
-            
+
         </ListBox>
         <Calendar Height="170" HorizontalAlignment="Left" Margin="852,97,0,0"
               Name="calendar1" VerticalAlignment="Top" Width="180" />
